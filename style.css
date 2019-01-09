@@ -1,0 +1,57 @@
+.title {
+    text-align: center;
+    font-size: 5rem;
+}
+
+.add-button {
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 1rem;  
+    height: 100px;  
+}
+
+.todo-input {
+    height: 5rem;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.list-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.todo-list, .done-list {
+    font-size: 2.5rem;
+    margin: 5rem;
+    list-style: none;
+}
+
+.todo-list li {
+    background-color: rgb(255, 224, 224);
+}
+
+.done {
+    text-decoration: line-through;
+    background-color: red !important;
+}
+
+.deleteButton {
+    background-color: #000;
+    color: #fff;
+    font-size: 3rem;
+    width: 1rem;
+    height: 1rem;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+}
